@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Adblocker",
+  "description": "AdBlocker.",
+  "version": "0.0.1",
+  "author": "jj",
+  "action": {
+    "default_title": "LinkedIn AdBlocker"
+  },
+
+  "permissions": [
+    "tabs",
+    "webNavigation"
+],
+"host_permissions": [
+    "https://www.linkedin.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
